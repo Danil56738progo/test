@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Дневник в стиле СССР</title>
+    <link rel="stylesheet" href="my.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Дневник</h1>
+    </header>
+    <main>
+      <section id="entryForm">
+        <textarea
+          id="entryText"
+          placeholder="Введите вашу запись..."
+        ></textarea>
+        <input type="file" id="imageUpload" accept="image/*" />
+        <button id="saveEntry">Сохранить запись</button>
+      </section>
+      <section id="entries">
+        <!-- Сюда будут добавляться сохраненные записи -->
+      </section>
+    </main>
+    <script src="my.js"></script>
+  </body>
+</html>

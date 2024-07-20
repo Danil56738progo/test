@@ -1,0 +1,96 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #cc3333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#entryForm {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  line-height: 1.5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+#imageUpload {
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #cc3333;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #990000;
+}
+
+section#entries {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.entry {
+  position: relative; /* Добавлено для позиционирования кнопок */
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.entry .entryDate {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.entry .entryText {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  margin-bottom: 10px;
+}
+
+.entry img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.entry .entryButtons {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.entry .entryButtons button {
+  margin-left: 5px;
+}
